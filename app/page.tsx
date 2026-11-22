@@ -5,9 +5,9 @@ import { motion, type Variants } from 'framer-motion';
 import CountdownTimer from './components/CountdownTimer';
 import FlowScrollytelling from './components/FlowScrollytelling';
 
-const checkoutAoVivo = process.env.NEXT_PUBLIC_HOTMART_AO_VIVO || '';
-const checkoutGravacao = process.env.NEXT_PUBLIC_HOTMART_GRAVACAO || '';
-const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || '';
+const checkoutAoVivo = process.env.NEXT_PUBLIC_HOTMART_AO_VIVO || 'https://pay.hotmart.com/Q108609092V?off=zbon315k';
+const checkoutGravacao = process.env.NEXT_PUBLIC_HOTMART_GRAVACAO || 'https://pay.hotmart.com/Q108609092V?off=k8yf81ko';
+const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || '5511945903307';
 
 const benefits = [
   ['01', 'Mapeamento de Funcionalidades', 'Aprenda a analisar as saídas e a lógica do GPT que você utiliza para identificar exatamente o que precisa ser replicado.'],

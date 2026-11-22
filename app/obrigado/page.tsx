@@ -6,8 +6,8 @@ export const metadata = {
 };
 
 export default function Obrigado() {
-  const whatsappGrupo = process.env.NEXT_PUBLIC_WHATSAPP_GRUPO || '';
-  const whatsappSuporte = process.env.NEXT_PUBLIC_WHATSAPP || '';
+  const whatsappGrupo = process.env.NEXT_PUBLIC_WHATSAPP_GRUPO || 'https://chat.whatsapp.com/LTlStAD867DKzuEFmi3hqj?s=cl&p=a&iam=2';
+  const whatsappSuporte = process.env.NEXT_PUBLIC_WHATSAPP || '5511945903307';
 
   return (
     <main>
