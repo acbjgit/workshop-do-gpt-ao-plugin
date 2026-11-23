@@ -36,7 +36,7 @@ export default function Obrigado() {
         <div className="card" style={{ maxWidth: '620px', margin: '0 auto 36px', textAlign: 'left', borderColor: '#336294', background: '#0e1d35' }}>
           <h3 style={{ marginTop: 0, color: '#6abeff' }}>📱 Entre no Grupo Exclusivo no WhatsApp</h3>
           <p style={{ marginBottom: '22px', fontSize: '15px' }}>
-            Clique no botão abaixo para entrar imediatamente no grupo do workshop. O grupo é silencioso, exclusivo para avisos e envio do link do Zoom no dia <strong>26/11 às 18h</strong>.
+            Clique no botão abaixo para entrar imediatamente no grupo do workshop. O grupo é silencioso, exclusivo para avisos e envio do link do Zoom no dia <strong>04/12 às 18h</strong>.
           </p>
 
           {whatsappGrupo ? (
@@ -67,7 +67,7 @@ export default function Obrigado() {
 
         <div style={{ borderTop: '1px solid #1f314d', paddingTop: '28px' }}>
           <p className="details" style={{ margin: 0 }}>
-            📅 <strong>Quando:</strong> 26 de novembro de 2026 às 18h (Horário de Brasília) &nbsp; · &nbsp; 💻 <strong>Onde:</strong> Zoom Ao Vivo
+            📅 <strong>Quando:</strong> 04 de dezembro de 2026 às 18h (Horário de Brasília) &nbsp; · &nbsp; 💻 <strong>Onde:</strong> Zoom Ao Vivo
           </p>
 
           {whatsappSuporte && (

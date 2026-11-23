@@ -59,7 +59,7 @@ export default function Home() {
         variants={fadeInUp}
       >
         <div className="pill">
-          <span>✦</span> WORKSHOP EXCLUSIVO AO VIVO NO ZOOM · 26/11/2026 ÀS 18H
+          <span>✦</span> WORKSHOP EXCLUSIVO AO VIVO NO ZOOM · 04/12/2026 ÀS 18H
         </div>
 
         <h1>
@@ -72,7 +72,7 @@ export default function Home() {
         </p>
 
         {/* Temporizador Sincronizado em Tempo Real */}
-        <CountdownTimer targetDate="2026-11-26T18:00:00-03:00" />
+        <CountdownTimer targetDate="2026-12-04T18:00:00-03:00" />
 
         <aside className="alert">
           <strong>⚠ ATENÇÃO: NÃO FIQUE REFÉM DE FERRAMENTAS DE TERCEIROS</strong>
@@ -88,7 +88,7 @@ export default function Home() {
         </div>
 
         <p className="details">
-          📅 <strong>Data:</strong> 26 de novembro de 2026 &nbsp;·&nbsp; 🕕 <strong>Horário:</strong> 18h (Horário de Brasília) &nbsp;·&nbsp; 💻 <strong>Local:</strong> Sala Privada no Zoom
+          📅 <strong>Data:</strong> 04 de dezembro de 2026 &nbsp;·&nbsp; 🕕 <strong>Horário:</strong> 18h (Horário de Brasília) &nbsp;·&nbsp; 💻 <strong>Local:</strong> Sala Privada no Zoom
         </p>
       </motion.section>
 
@@ -234,7 +234,7 @@ export default function Home() {
             <h3>Workshop Ao Vivo</h3>
             <div className="price">R$ 49,90</div>
             <p style={{ marginBottom: '20px' }}>
-              Acesso completo à aula ao vivo no Zoom no dia 26/11 às 18h, participação na sessão de dúvidas e acesso ao grupo VIP de alunos no WhatsApp.
+              Acesso completo à aula ao vivo no Zoom no dia 04/12 às 18h, participação na sessão de dúvidas e acesso ao grupo VIP de alunos no WhatsApp.
             </p>
             <Checkout href={checkoutAoVivo}>GARANTIR MINHA VAGA NO AO VIVO</Checkout>
           </article>
